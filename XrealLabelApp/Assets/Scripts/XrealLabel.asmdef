@@ -1,0 +1,19 @@
+{
+    "name": "XrealLabel",
+    "rootNamespace": "XrealLabel",
+    "references": [
+        "Unity.XR.XREAL",
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "Unity.XR.CoreUtils"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

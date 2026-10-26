@@ -1,0 +1,6 @@
+<linker>
+  <!-- RecenterDetector がリフレクションで internal イベント OnGlassesEventExt を購読するため、IL2CPP のストリップから守る -->
+  <assembly fullname="Unity.XR.XREAL">
+    <type fullname="Unity.XR.XREAL.XREALCallbackHandler" preserve="all" />
+  </assembly>
+</linker>

@@ -1,0 +1,23 @@
+# 研究メモ（アプリ本体とは分けて管理）
+/research/
+
+# XREAL SDK（248MB。Packages/manifest.json から ../../com.xreal.xr.tar.gz で参照）
+/com.xreal.xr.tar.gz
+
+# Unity
+XrealLabelApp/[Ll]ibrary/
+XrealLabelApp/[Tt]emp/
+XrealLabelApp/[Oo]bj/
+XrealLabelApp/[Bb]uild/
+XrealLabelApp/[Bb]uilds/
+XrealLabelApp/[Ll]ogs/
+XrealLabelApp/[Uu]ser[Ss]ettings/
+XrealLabelApp/[Mm]emoryCaptures/
+XrealLabelApp/.utmp/
+*.csproj
+*.sln
+*.apk
+*.aab
+
+# macOS
+.DS_Store
