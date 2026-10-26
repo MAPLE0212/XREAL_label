@@ -7,6 +7,8 @@ namespace XrealLabel
     /// 「X Button」「+/- Button」「Quick Button」に合わせる（日本語の公式名は見つからなかったので英語名を使う）。
     /// https://tutorials.xreal.com/docs/glasses/one-series/first-use/buttons
     ///
+    /// 位置はすべて右のつる：Xボタン＝下側の赤いボタン、+/-ボタン＝下側、Quickボタン＝上側の短いボタン（公式ユーザーガイド）。
+    ///
     /// SDK のキー種別との対応（2026-10-26 実機で確認）：
     ///  MULTI_KEY    → Xボタン（長押しで眼鏡のリセンター、ダブルクリックで OSD メニュー＝公式の X Button の動きと一致）
     ///  INCREASE_KEY → +/-ボタンの +

@@ -51,11 +51,11 @@ XREAL One＋Beam Pro で、頭の向いた方向にテキストラベルを置�
 
 眼鏡（XREAL One）のボタンは、XREAL 公式チュートリアル（[Buttons](https://tutorials.xreal.com/docs/glasses/one-series/first-use/buttons)）の呼び方に合わせる。日本語の公式名は見つからなかったので英語名を使う。アプリの表示・ログ・コードはすべてこの呼び方にそろえている（`ButtonNames.cs`）。
 
-| 公式の呼び方 | SDK のキー種別 | 眼鏡側の標準の動き（公式） | このアプリでの扱い | ログの ID |
-|---|---|---|---|---|
-| Xボタン（X Button） | `MULTI_KEY` | クリック：Follow / Anchor の切り替え、ダブルクリック：OSD メニュー、長押し：画面のリセンター | クリックで確定。長押しは眼鏡のリセンターとして検知 | `Glasses_X_Click` など |
-| +/-ボタン（+/- Button） | `INCREASE_KEY` / `DECREASE_KEY` | Quick Panel、明るさ・音量・調光の調整 | 記録だけ（確定には使わない） | `Glasses_Plus_Click` / `Glasses_Minus_Click` |
-| Quickボタン（Quick Button） | `MENU_KEY`（推定・要確認） | 割り当て可能（標準は UltraWide） | 記録だけ | `Glasses_Quick_Click` |
+| 公式の呼び方 | 位置（右のつる） | SDK のキー種別 | 眼鏡側の標準の動き（公式） | このアプリでの扱い | ログの ID |
+|---|---|---|---|---|---|
+| Xボタン（X Button） | 下側の赤いボタン | `MULTI_KEY` | クリック：Follow / Anchor の切り替え、ダブルクリック：OSD メニュー、長押し：画面のリセンター | クリックで確定。長押しは眼鏡のリセンターとして検知 | `Glasses_X_Click` など |
+| +/-ボタン（+/- Button） | 下側 | `INCREASE_KEY` / `DECREASE_KEY` | Quick Panel、明るさ・音量・調光の調整 | 記録だけ（確定には使わない） | `Glasses_Plus_Click` / `Glasses_Minus_Click` |
+| Quickボタン（Quick Button） | 上側の短いボタン | `MENU_KEY`（推定・要確認） | 割り当て可能（標準は UltraWide） | 記録だけ | `Glasses_Quick_Click` |
 
 Beam Pro 側は、画面の大きな青いボタン（ログ ID `BeamPro_ConfirmButton`）と、SDK の仮想コントローラーの Trigger（`BeamPro_Trigger`、公式の [Controller](https://docs.xreal.com/Input%20and%20Interactions/Controller) の呼び方）。クリックの種類は クリック / ダブルクリック / 長押し（ログでは `Click` / `DoubleClick` / `LongPress`）。
 
