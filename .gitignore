@@ -1,6 +1,9 @@
 # 研究メモ（アプリ本体とは分けて管理）
 /research/
 
+# 個人用の Claude 向け補足（非公開側の構成を含む）
+CLAUDE.local.md
+
 # XREAL SDK（248MB。Packages/manifest.json から ../../com.xreal.xr.tar.gz で参照）
 /com.xreal.xr.tar.gz
 
